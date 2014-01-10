@@ -12,4 +12,4 @@ class Server(Protocol):
     def dataReceived(self, data):
         """
         """
-        self.transport.write("hiya")
+        self.transport.write("GO AWAY PLZ\r\n")
